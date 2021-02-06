@@ -1,0 +1,24 @@
+{
+  "name": "product-scraper",
+  "version": "1.0.0",
+  "description": "a scraper for product data",
+  "main": "index.js",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "cheerio": "^1.0.0-rc.5",
+    "express": "^4.17.1",
+    "lodash": "^4.17.20",
+    "morgan": "^1.10.0",
+    "puppeteer": "^7.0.1",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.6",
+    "user-agents": "^1.0.559"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
